@@ -78,11 +78,13 @@ set runtimepath^=~/.vim/bundle/vim-rails
 set runtimepath^=~/.vim/bundle/vim-ruby
 set runtimepath^=~/.vim/bundle/vim-slim
 set runtimepath^=~/.vim/bundle/vim-multiple-cursors
+set runtimepath^=~/.vim/bundle/typescript-vim
 
 let g:ctrlp_show_hidden = 1 
 let NERDTreeShowHidden=1 
 
 autocmd BufNewFile,BufRead *.slim set ft=slim
+autocmd BufNewFile,BufRead *.slim set ft=typescript
 
 "------------------------------------------------------------
 " Configure the form of cursor in terminals
